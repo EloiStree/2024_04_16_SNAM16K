@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.immogeneric16kEditor",          
+    "references": ["be.eloistree.immogeneric16k"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

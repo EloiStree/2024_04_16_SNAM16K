@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.immogeneric16k",                              
+  "displayName": "IMMO Generic16K",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Tools to prepaer native array of 128*128 element to game with 16k player.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_04_16_IMMO_Player_Generic16K.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
