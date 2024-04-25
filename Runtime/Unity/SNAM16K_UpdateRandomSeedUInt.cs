@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SNAM16K_UpdateRandomSeedUInt : DroneIMMO.StaticNativeArrayMono_Generic16K<uint> {
+public class SNAM16K_UpdateRandomSeedUInt : StaticNativeArrayMono_Generic16K<uint> {
 
 
     public bool m_updateOnAwake = true;

@@ -1,2 +1,2 @@
 ﻿
-public class SNAM16K_ObjectUlong : DroneIMMO.StaticNativeArrayMono_Generic16K<ulong> { }
+public class SNAM16K_ObjectUlong : StaticNativeArrayMono_Generic16K<ulong> { }

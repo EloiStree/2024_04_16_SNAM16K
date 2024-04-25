@@ -4,10 +4,6 @@ using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
 
-namespace DroneIMMO
-{
-    
-
 
 
     public  class StaticNativeArrayMono_Generic16K<T>: 
@@ -86,4 +82,3 @@ namespace DroneIMMO
                 nativeArray.Dispose();
         }
     }
-}
