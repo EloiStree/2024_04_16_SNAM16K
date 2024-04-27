@@ -1,12 +1,12 @@
 ﻿
 using UnityEngine;
 
-public class StaticNativeArrayMono_GetDebugGeneric16K<T> :
+public class SNAM_GetDebugGeneric16K<T> :
     MonoBehaviour
      where T : struct
 {
 
-    public StaticNativeArrayMono_Generic16K<T> m_targetSNAM;
+    public SNAM_Generic16K<T> m_targetSNAM;
 
     public T[] m_arrayFetched= new T[10];
     public bool m_useUpdateFetch=true;

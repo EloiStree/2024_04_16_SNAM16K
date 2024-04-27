@@ -1,12 +1,12 @@
 ﻿
 using UnityEngine;
 
-public abstract class StaticNativeArrayMono_SetDebugGeneric16K<T> :
+public abstract class SNAM_SetDebugGeneric16K<T> :
     MonoBehaviour
      where T : struct
 {
   
-    public StaticNativeArrayMono_Generic16K<T> m_targetSNAM ;
+    public SNAM_Generic16K<T> m_targetSNAM ;
 
     public T[] m_arrayToSet = new T[10];
     public bool m_useValidated=true;

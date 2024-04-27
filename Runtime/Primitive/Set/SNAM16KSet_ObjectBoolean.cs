@@ -1,4 +1,4 @@
-﻿public class SNAM16KSet_ObjectBoolean : StaticNativeArrayMono_SetDebugGeneric16K<bool>
+﻿public class SNAM16KSet_ObjectBoolean : SNAM_SetDebugGeneric16K<bool>
 {
     public override bool GenerateRandomValue()
     {

@@ -1,1 +1,1 @@
-﻿public class SNAM16K_ObjectDouble : StaticNativeArrayMono_Generic16K<double> { }
+﻿public class SNAM16K_ObjectDouble : SNAM_Generic16K<double> { }

@@ -1,2 +1,2 @@
-﻿public class SNAM16KGet_ObjectBoolean : StaticNativeArrayMono_GetDebugGeneric16K<bool>
+﻿public class SNAM16KGet_ObjectBoolean : SNAM_GetDebugGeneric16K<bool>
 { }

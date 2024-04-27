@@ -6,14 +6,14 @@ using UnityEngine;
 
 
 
-    public  class StaticNativeArrayMono_Generic16K<T>: 
+    public  class SNAM_Generic16K<T>: 
         MonoBehaviour where T : struct
     {
         public static Dictionary<string, NativeArray<T>> m_globalNativeArray = new Dictionary<string, NativeArray<T>>();
         public static int ARRAY_MAX_SIZE = 128 * 128;
-        public static StaticNativeArrayMono_Generic16K<T> m_instanceInScene;
+        public static SNAM_Generic16K<T> m_instanceInScene;
 
-        public static StaticNativeArrayMono_Generic16K<T> I()
+        public static SNAM_Generic16K<T> I()
         {
            return m_instanceInScene;
             
