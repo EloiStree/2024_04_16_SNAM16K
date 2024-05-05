@@ -1,6 +1,6 @@
 ﻿namespace DroneIMMO
 {
-    public class AAA { }
+    public class SNAM16KGet_ObjectInt : SNAM_GetDebugGeneric16K<int> { }
 
 
     //[System.Serializable]
