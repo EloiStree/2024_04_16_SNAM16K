@@ -4,3 +4,5 @@ using UnityEngine;
 
 public class SNAM16K_ObjectVector3 : SNAM_Generic16K<Vector3>
 { }
+
+
