@@ -88,6 +88,10 @@ public  class SNAM_Generic16KMono<T>:
             if (nativeArray != null && nativeArray.IsCreated)
                 nativeArray.Dispose();
         }
+        public int GetLength()
+        {
+            return SNAM16K.ARRAY_MAX_SIZE;
+        }
 
     public T this[int index]
     {
