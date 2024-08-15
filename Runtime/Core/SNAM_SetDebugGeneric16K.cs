@@ -6,7 +6,7 @@ public abstract class SNAM_SetDebugGeneric16K<T> :
      where T : struct
 {
   
-    public SNAM_Generic16K<T> m_targetSNAM ;
+    public SNAM_Generic16KMono<T> m_targetSNAM ;
 
     public T[] m_arrayToSet = new T[10];
     public bool m_useValidated=true;

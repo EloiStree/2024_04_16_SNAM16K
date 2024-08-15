@@ -6,7 +6,7 @@ public class SNAM_GetDebugGeneric16K<T> :
      where T : struct
 {
 
-    public SNAM_Generic16K<T> m_targetSNAM;
+    public SNAM_Generic16KMono<T> m_targetSNAM;
 
     public T[] m_arrayFetched= new T[10];
     public bool m_useUpdateFetch=true;
@@ -30,6 +30,13 @@ public class SNAM_GetDebugGeneric16K<T> :
         }
 
     }
+
+    public T this[int index]
+    {
+        get { return m_targetSNAM[index]; }
+        set { m_targetSNAM[index] = value; }
+    }
+
 
     //private void Reset()
     //{

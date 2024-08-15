@@ -2,17 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SNAM16K_UpdateRandomSeedUInt : SNAM_Generic16K<uint> {
+public class SNAM16K_UpdateRandomSeedUInt : SNAM_Generic16KMono<uint> {
 
 
     public bool m_updateOnAwake = true;
     
-    private bool m_test=true;
+    public bool m_refreshSeedWithUpdate=true;
+    private new void Awake()
+    {
+        base.Awake();
+        if(m_updateOnAwake)
+            ChangeSeeds();
+    }
     private void Update()
     {
-        if(m_test)
+        if(m_refreshSeedWithUpdate)
         {
-            m_test = false;
+            m_refreshSeedWithUpdate = false;
             ChangeSeeds();
         }
         
