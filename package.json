@@ -1,11 +1,11 @@
 
 {                                                                                
-  "name": "be.eloistree.immogeneric16k",                              
-  "displayName": "IMMO Generic16K",                        
+  "name": "be.eloistree.snam16k",                              
+  "displayName": "Generic16K",                        
   "version": "0.0.1",                         
   "unity": "2018.1",                             
   "unityRelease": "",                             
-  "description": "Tools to prepaer native array of 128*128 element to game with 16k player.",                         
+  "description": "Tools to prepare native array of 128*128 element to game with 16k player.",                         
   "keywords": ["Script","Tool"],                       
   "dependencies":{},     
   "relatedPackages":{},     
