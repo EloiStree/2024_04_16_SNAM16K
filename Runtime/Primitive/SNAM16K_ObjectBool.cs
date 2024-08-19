@@ -13,10 +13,12 @@ public class SNAM16K_ObjectBool : SNAM_Generic16KMono<bool>
             this[i] = value;
         }
     }
+    [ContextMenu("Set all false")]
     public void SetAllToFalse()
     {
-        SetAllTo(false);
+        SetAllTo(false);    
     }
+    [ContextMenu("Set all true")]
     public void SetAllToTrue()
     {
         SetAllTo(true);

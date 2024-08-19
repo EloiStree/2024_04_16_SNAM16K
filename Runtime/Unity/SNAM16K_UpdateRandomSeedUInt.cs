@@ -26,8 +26,8 @@ public class SNAM16K_UpdateRandomSeedUInt : SNAM_Generic16KMono<uint> {
     [ContextMenu("Change Seeds")]
     public void ChangeSeeds() {
 
-        var array = SNAM16K_UpdateRandomSeedUInt.I().GetNativeArray();
-        for (int i = 0; i < array.Length; i++)
+        var array = SNAM16K_UpdateRandomSeedUInt.I().GetNativeArrayHolder();
+        for (int i = 0; i < SNAM16K.ARRAY_MAX_SIZE; i++)
         {
             array[i] = (uint)Random.Range(0, uint.MaxValue);
         }

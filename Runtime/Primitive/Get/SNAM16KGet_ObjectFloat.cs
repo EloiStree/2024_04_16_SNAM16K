@@ -1,6 +1,39 @@
-﻿namespace DroneIMMO
+﻿using System.Runtime.Remoting.Contexts;
+using UnityEngine;
+
+namespace DroneIMMO
 {
-    public class SNAM16KGet_ObjectFloat : SNAM_GetDebugGeneric16K<float> { }
+    public class SNAM16KGet_ObjectFloat : SNAM_GetDebugGeneric16K<float> {
+
+        public void SetAllToValue(float value) { 
+        
+        
+            for (int i = 0; i < SNAM16K.ARRAY_MAX_SIZE; i++)
+            {
+                this[i] = value;
+            }
+        }
+
+
+        [ContextMenu("Set All 1")]
+        public void SetAllToOne() { 
+        
+        
+            for (int i = 0; i < SNAM16K.ARRAY_MAX_SIZE; i++)
+            {
+                this[i] = 1;
+            }
+        }
+        [ContextMenu("Set All 0")]
+        public void SetAllToZero() { 
+        
+        
+            for (int i = 0; i < SNAM16K.ARRAY_MAX_SIZE; i++)
+            {
+                this[i] = 0;
+            }
+        }
+    }
 
 
     //[System.Serializable]
