@@ -1,8 +1,12 @@
 {
-    "name": "be.eloistree.snam16k",
+    "name": "be.elab.immogeneric16kEditor",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "be.elab.snam16k"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
