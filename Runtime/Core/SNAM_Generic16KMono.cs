@@ -73,6 +73,7 @@ public  class SNAM_Generic16KMono<T>:
             m_guid = Guid.NewGuid().ToString();
             m_instanceInScene = this;
             // Debug.Log("Created SNAM " + this.GetType(), this.gameObject);
+            Destroy();
             Create();
         }
         public virtual void OnDestroy()
@@ -113,10 +114,17 @@ public  class SNAM_Generic16KMono<T>:
         }
         public   void Destroy()
         {
+
+            if (m_globalNativeArray.ContainsKey(GetStringId()))
+            {
+                m_globalNativeArray[GetStringId()].Dispose();
+                m_globalNativeArray.Remove(GetStringId());
+            }
+
             NativeArrayRefHolder<T> nativeArray = GetNativeArrayHolder();
-        if (nativeArray != null)
-            nativeArray.Dispose();
-    }
+            if (nativeArray != null)
+                nativeArray.Dispose();
+        }
     public int GetLength()
         {
             return SNAM16K.ARRAY_MAX_SIZE;
