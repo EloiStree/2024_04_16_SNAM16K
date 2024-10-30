@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DroneIMMO
+namespace Eloi.SNAM
 {
     public class SNAM16KSet_ObjectVector3 : SNAM_SetDebugGeneric16K<Vector3>
     {

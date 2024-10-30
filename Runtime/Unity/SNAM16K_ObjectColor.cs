@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 
-public class SNAM16K_ObjectColor : SNAM_Generic16KMono<Color>
-{ }
+namespace Eloi.SNAM
+{
+    public class SNAM16K_ObjectColor : SNAM_Generic16KMono<Color>
+    {
+
+    }
+}
+
+
+
+
 
 

@@ -1,3 +1,8 @@
 ﻿using UnityEngine;
 
-public class SNAM16K_ObjectQuaternion : SNAM_Generic16KMono<Quaternion> { }
+namespace Eloi.SNAM
+{
+    public class SNAM16K_ObjectQuaternion : SNAM_Generic16KMono<Quaternion>
+    {
+    }
+}

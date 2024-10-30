@@ -1,4 +1,4 @@
-﻿namespace DroneIMMO
+﻿namespace Eloi.SNAM
 {
     public class SNAM16KSet_ObjectUInt : SNAM_SetDebugGeneric16K<uint>
     {

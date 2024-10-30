@@ -1,4 +1,4 @@
-﻿namespace DroneIMMO
+﻿namespace Eloi.SNAM
 {
     public class SNAM16KSet_ObjectSByte : SNAM_SetDebugGeneric16K<sbyte>
     {

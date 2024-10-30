@@ -1,4 +1,4 @@
-﻿namespace DroneIMMO
+﻿namespace Eloi.SNAM
 {
     public class AAA { }
 

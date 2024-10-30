@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class SNAM16K_ObjectBool : SNAM_Generic16KMono<bool>
 {
-   
+    public bool IsTrue(int i)
+    {
+        return this[i];
+    }
+
+    public bool IsFalse(int i)
+    {
+        return !this[i];
+    }
 
     public void SetAllTo(bool value)
     {

@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace DroneIMMO
+namespace Eloi.SNAM
 {
     public class SNAM16KGet_ObjectFloat : SNAM_GetDebugGeneric16K<float> {
 

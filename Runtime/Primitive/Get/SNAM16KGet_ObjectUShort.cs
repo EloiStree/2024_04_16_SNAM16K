@@ -1,4 +1,4 @@
-﻿namespace DroneIMMO
+﻿namespace Eloi.SNAM
 {
     public class SNAM16KGet_ObjectUShort : SNAM_GetDebugGeneric16K<ushort> { }
 
