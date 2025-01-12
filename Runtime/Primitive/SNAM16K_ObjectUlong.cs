@@ -1,2 +1,9 @@
 ﻿
-public class SNAM16K_ObjectUlong : SNAM_Generic16KMono<ulong> { }
+using Unity.Collections;
+
+public class SNAM16K_ObjectUlong : SNAM_Generic16KMono<ulong> {
+
+    
+
+}
+
