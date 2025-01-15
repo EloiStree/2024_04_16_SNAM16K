@@ -2,7 +2,7 @@
 {                                                                                
   "name": "be.elab.snam16k",                              
   "displayName": "Generic16K",                        
-  "version": "0.0.1",                         
+  "version": "2025.1.16",                         
   "unity": "2018.1",                             
   "unityRelease": "",                             
   "description": "Tools to prepare native array of 128*128 element to game with 16k player.",                         
